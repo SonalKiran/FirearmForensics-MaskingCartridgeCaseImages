@@ -11,7 +11,7 @@ In this project, the following areas of interest are masked -
 
 For this algorithm to work as required it is important to use properly lit images focused on the firing-pin and the breech-face regions, including the grooves around the breech-face but *excluding the head-stamp region* of the case. Below is an image to illustrate the anatomy of a fired cartridge case -
 
-![Fired Bullet Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/resources/bullet_casing.jpg)
+![Fired Bullet Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/bullet_casing.jpg)
 
 
 There are two python scripts under the 'Services' folder -
@@ -39,10 +39,10 @@ This "Data" folder contains 5 images from 2 bullet cases.
 ### Results
 ---
 
-![Original Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/data/o_1.jpg)
+![Original Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/data/o_1.jpg)
 
 
-![Masked Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/data/masked_images/masked_o_1.jpg)
+![Masked Casing Image](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/data/masked_images/masked_o_1.jpg)
 
 
 ### Next Steps
