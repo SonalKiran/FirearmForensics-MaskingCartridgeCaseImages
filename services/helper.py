@@ -1,7 +1,5 @@
 # imports
 import cv2
-
-# import numpy as np
 import math
 from typing import Any, Union, Sequence
 import numpy.typing as npt
