@@ -16,21 +16,48 @@ For this algorithm to work as required it is important to use properly lit image
 3. Firing pin impression
 4. Firing pin drag
 
+
 **Fired Cartridge Case Image**
+
 ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/bullet_casing.jpg)
 
+
+### Running this Project
+---
+**Setting up the environment -**
+
+From your terminal -
+1. Using conda
+	- `conda create --name cartridge_masking python=3.9.15`
+	- `conda activate cartridge_masking`
+	- `pip3 install -r requirements.txt`
+
+2. Using pyenv
+	- `pyenv virtualenv 3.9.15 cartridge_masking`
+	- `pyenv activate cartridge_masking`
+	- `pip3 install -r requirements.txt`
+
+**Running the project -**
 
 There are two python scripts under the 'Services' folder -
 
 - cartridge_masking.py : this is the main script that should be run from your terminal
 - helper.py : This contains helper functions for the main script
 
+From your terminal -
+1. clone the repository using: `git clone https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages.git`
+2. change the directory using: `cd FirearmForensics-MaskingCartridgeCaseImages/`
+3. activate the virtualenv using: `conda activate cartridge_masking` or `pyenv activate cartridge_masking`
+4. run the main script using: `python3 services/cartridge_masking.py`
+
+
+
 
 ### Dependencies
 ---
 (This project was built on macOS Ventura 13.4.1)
 
-**Python Version**: 3.8.10
+**Python Version**: 3.9.15
 
 **Python Libraries** (please refer requirements.txt):
 - numpy: 1.26.3
@@ -45,9 +72,12 @@ This "Data" folder contains 5 images from 2 bullet cases.
 ### Results
 ---
 **Original Casing Image**
+
 ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/o_1.jpg)
 
+
 **Masked Casing Image**
+
 ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/masked_o_1.jpg)
 
 
