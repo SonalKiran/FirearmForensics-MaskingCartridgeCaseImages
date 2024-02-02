@@ -1,8 +1,16 @@
 # Firearm Forensics : Masking Cartridge Case Images
 
+
+### Results
+---
+**Original Casing Image** | **Masked Casing Image**
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/o_1.jpg) | ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/masked_o_1.jpg)
+
+
 ### Project Overview
 ---
-This project aims to use computer vision algorithms to build masks on top of fired cartridge cases images to identify areas of interest in a forensic investigation. These masks are used to compare the impressions on the cartridge case with the breech face and firing pin impressions of the firearm in question to ascertain if the cartridges in question came from the same or different firearms, which is information of great value in police investigations. 
+This project aims to use computer vision algorithms to build masks on top of fired cartridge cases images to identify areas of interest in a forensic investigation. These masks are used to compare the impressions on the cartridge case with the breech face and firing pin impressions of the firearm in question to ascertain if the cartridges came from the same or different firearm, which is information of great value in police investigations. 
 In this project, the following areas of interest are masked -
 
 - **Breech face impression**
@@ -51,8 +59,6 @@ From your terminal -
 4. Run the main script using: `python3 services/cartridge_masking.py`
 
 
-
-
 ### Dependencies
 ---
 (This project was built on macOS Ventura 13.4.1)
@@ -67,13 +73,6 @@ From your terminal -
 ### Dataset Description
 ---
 This "Data" folder contains 5 images from 2 bullet cases.
-
-
-### Results
----
-**Original Casing Image** | **Masked Casing Image**
-:-------------------------:|:-------------------------:
-![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/o_1.jpg) | ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/masked_o_1.jpg)
 
 
 ### Next Steps
