@@ -41,14 +41,14 @@ From your terminal -
 
 There are two python scripts under the 'Services' folder -
 
-- cartridge_masking.py : this is the main script that should be run from your terminal
-- helper.py : This contains helper functions for the main script
+- *cartridge_masking.py* : this is the main script that should be run from your terminal
+- *helper.py* : This contains helper functions for the main script
 
 From your terminal -
-1. clone the repository using: `git clone https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages.git`
-2. change the directory using: `cd FirearmForensics-MaskingCartridgeCaseImages/`
-3. activate the virtualenv using: `conda activate cartridge_masking` or `pyenv activate cartridge_masking`
-4. run the main script using: `python3 services/cartridge_masking.py`
+1. Clone the repository using: `git clone https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages.git`
+2. Change the directory using: `cd FirearmForensics-MaskingCartridgeCaseImages/`
+3. Activate the virtual environment using: `conda activate cartridge_masking` or `pyenv activate cartridge_masking`
+4. Run the main script using: `python3 services/cartridge_masking.py`
 
 
 
@@ -71,14 +71,9 @@ This "Data" folder contains 5 images from 2 bullet cases.
 
 ### Results
 ---
-**Original Casing Image**
-
-![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/o_1.jpg)
-
-
-**Masked Casing Image**
-
-![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/masked_o_1.jpg)
+**Original Casing Image** | **Masked Casing Image**
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/o_1.jpg) | ![alt text](https://github.com/SonalKiran/FirearmForensics-MaskingCartridgeCaseImages/blob/master/resources/masked_o_1.jpg)
 
 
 ### Next Steps
