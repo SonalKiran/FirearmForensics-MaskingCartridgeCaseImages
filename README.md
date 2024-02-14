@@ -10,8 +10,8 @@
 
 ### Project Overview
 ---
-This project aims to use computer vision algorithms to build masks on top of fired cartridge cases images to identify areas of interest in a forensic investigation. These masks are used to compare the impressions on the cartridge case with the breech face and firing pin impressions of the firearm in question to ascertain if the cartridges came from the same or different firearm, which is information of great value in police investigations. 
-In this project, the following areas of interest are masked -
+This project employs computer vision algorithms and creates a tool to build masks on top of fired cartridge case images identifying regions of interest to aid in forensic investigations. These masks are used to compare the impressions on the cartridge case with the breech face and firing pin impressions of the firearm in question to ascertain if the cartridges came from the same or different firearm, which is information of great value in police investigations. 
+This tool masks the following regions of interest -
 
 - **Breech face impression**
 - **Firing pin impression**
